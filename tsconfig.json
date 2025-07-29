@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".",            // <--- REQUIRED for path aliasing
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]            // <--- maps @/components/... to ./components/...
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
