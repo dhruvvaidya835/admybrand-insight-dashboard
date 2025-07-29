@@ -1,0 +1,11 @@
+# AI Usage Report for ADmyBRAND Insight Dashboard
+
+This project used OpenAI's ChatGPT-4 for:
+
+1. Fixing import/export and file structure issues
+2. Implementing light/dark theme toggle using custom components
+3. Designing chart structure (Recharts) in dashboard
+4. Writing correct `next.config.ts` and `tsconfig.json` for route aliasing
+5. Resolving Render deployment issues and setting base path to `/dashboard`
+
+All final code was reviewed and tested by the developer (Dhruv Vaidya).
